@@ -34,7 +34,7 @@ export default function Types() {
   return (
     <section className='flex flex-col items-center gap-4 p-10'>
       <div className='grid grid-cols-2 gap-4 items-center justify-center'>
-        { types?.map((type: Type) => (<TypeChip type={ type } key={ type.id } onClick={ () => openTypeModal(type) } />)) }
+        { types?.map((type: Type) => (<TypeChip type={ type } key={ type.id } onClick={ () => openTypeModal(type) } cursor='pointer' />)) }
       </div>
     </section>
   );

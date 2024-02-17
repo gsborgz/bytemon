@@ -6,6 +6,7 @@ import Icon from './icon';
 export type TypeChipProps = {
   type: Type;
   size?: 'xs' | 'sm' | 'md';
+  cursor?: string;
   onClick?: () => void;
 };
 
@@ -15,7 +16,7 @@ export default function TypeChip(props: TypeChipProps) {
 
   const smallCard = (
     <div
-      className='flex items-center justify-center font-bold w-40 p-4 rounded-lg shadow-lg cursor-pointer select-none border-l-4 border-b-4 border-slate-900/50'
+      className={ `flex items-center justify-center font-bold w-40 p-4 rounded-lg shadow-lg cursor-${props.cursor || 'default'} select-none border-l-4 border-b-4 border-slate-900/50` }
       style={{ backgroundColor }}
       onClick={ props.onClick }
     >
@@ -28,7 +29,7 @@ export default function TypeChip(props: TypeChipProps) {
   );
   const mediumCard = (
     <div
-      className='relative text-center text-xs font-bold w-40 p-4 rounded-lg shadow-lg cursor-pointer select-none border-l-4 border-b-4 border-slate-900/50'
+      className={ `relative text-center text-xs font-bold w-40 p-4 rounded-lg shadow-lg cursor-${props.cursor || 'default'} select-none border-l-4 border-b-4 border-slate-900/50` }
       style={{ backgroundColor }}
       onClick={ props.onClick }
     >
@@ -45,7 +46,7 @@ export default function TypeChip(props: TypeChipProps) {
   );
   const largeCard = (
     <div
-      className='relative text-center text-lg font-bold w-56 p-4 rounded-xl shadow-lg cursor-pointer select-none border-l-6 border-b-6 border-slate-900/50'
+      className={ `relative text-center text-lg font-bold w-56 p-4 rounded-xl shadow-lg cursor-${props.cursor || 'default'} select-none border-l-6 border-b-6 border-slate-900/50` }
       style={{ backgroundColor }}
       onClick={ props.onClick }
     >

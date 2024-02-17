@@ -78,6 +78,7 @@ const type = {
   name: 'Name',
   description: 'Description',
   color: 'Color',
+  advantages: 'Advantages',
   weaknesses: 'Weaknesses',
   resistances: 'Resistances',
   immunities: 'Immunities',

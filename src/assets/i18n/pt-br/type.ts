@@ -5,79 +5,80 @@ const type = {
   },
   earth: {
     name: 'Terra',
-    description: ''
+    description: 'Muito comum em áreas desertas, montanhosas e cavernosas.'
   },
   plant: {
     name: 'Planta',
-    description: ''
+    description: 'Muito comum em áreas florestais e úmidas.'
   },
   wind: {
     name: 'Vento',
-    description: ''
+    description: 'Muito comum em áreas abertas e montanhosas.'
   },
   metal: {
     name: 'Metal',
-    description: ''
+    description: 'Muito comum em áreas urbanas, montanhosas e cavernosas'
   },
   cold: {
     name: 'Frio',
-    description: ''
+    description: 'Muito comum em áreas polares e montanhosas.'
   },
   toxic: {
     name: 'Tóxico',
-    description: ''
+    description: 'Muito comum em áreas urbanas, florestais e úmidas.'
   },
   mineral: {
     name: 'Mineral',
-    description: ''
+    description: 'Muito comum em áreas montanhosas e cavernosas.'
   },
   mystic: {
     name: 'Místico',
-    description: ''
+    description: 'Muito comum em áreas urbanas e florestais.'
   },
   fire: {
     name: 'Fogo',
-    description: ''
+    description: 'Muito comum em áreas desertas e montanhosas.'
   },
   normal: {
     name: 'Normal',
-    description: ''
+    description: 'Amplamente encontrado nos mais diversos tipos de biomas.'
   },
   electric: {
     name: 'Elétrico',
-    description: ''
+    description: 'Muito comum em áreas urbanas e montanhosas.'
   },
   tech: {
     name: 'Tecno',
-    description: ''
+    description: 'Amplamente encontrado nos mais diversos tipos de biomas.'
   },
   insect: {
     name: 'Inseto',
-    description: ''
+    description: 'Muito comum em áreas urbanas, florestais e úmidas.'
   },
   shadow: {
     name: 'Sombra',
-    description: ''
+    description: 'Muito comum em áreas urbanas e florestais.'
   },
   draco: {
     name: 'Draco',
-    description: ''
+    description: 'Muito comum em áreas montanhosas e cavernosas.'
   },
   water: {
     name: 'Água',
-    description: ''
+    description: 'Muito comum em áreas florestais e úmidas.'
   },
   dino: {
     name: 'Dino',
-    description: ''
+    description: 'Muito comum em áreas montanhosas e cavernosas.'
   },
   light: {
     name: 'Luz',
-    description: ''
+    description: 'Amplamente encontrado em áreas florestais e montanhosas.'
   },
   name: 'Nome',
   description: 'Descrição',
   color: 'Cor',
+  advantages: 'Vantagens',
   weaknesses: 'Fraquezas',
   resistances: 'Resistências',
   immunities: 'Imunidades',

@@ -4,6 +4,7 @@ import types from '@/assets/resources/types.json';
 export type TypeFinderData = {
   findAllTypes: () => Type[];
   findOneType: (id: number) => Type;
+  findAdvantages: (type: Type) => Type[];
 }
 
 export function useTypeFinder(): TypeFinderData {
@@ -25,5 +26,12 @@ export function useTypeFinder(): TypeFinderData {
     return type;
   }
 
-  return { findAllTypes, findOneType };
+  function findAdvantages(type: Type): Type[] {
+    const typeList = types as unknown as Type[];
+    const typesFiltered = typeList.filter(item => item.weaknesses.includes(type.id));
+
+    return typesFiltered.sort((type1, type2) => type1.index - type2.index);
+  }
+
+  return { findAllTypes, findOneType, findAdvantages };
 }

@@ -4,7 +4,7 @@ import { useContext, useEffect, useState } from 'react';
 import { Type } from '@/models/type';
 import TypeDialog from '@/dialogs/type';
 import { ModalContext } from '@/providers/modal';
-import { useTypeFinder } from '@/hooks/types';
+import { useTypeFinder } from '@/hooks/type-finder';
 import TypeChip from '@/components/type-chip';
 
 export default function Types() {

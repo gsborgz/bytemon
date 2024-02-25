@@ -2,7 +2,7 @@
 
 import Modal from '@/components/modal';
 import { useState } from 'react';
-import { useTypeFinder } from '@/hooks/types';
+import { useTypeFinder } from '@/hooks/type-finder';
 import { Type } from '@/models/type';
 import { useDictionary } from '@/hooks/dictionary';
 import Icon from '../components/icon';
